@@ -8,7 +8,11 @@
 
     <body>
         <h1>Word Count</h1>
-
+        <br>
+        <a href="{% url 'about' %}">About</a>
+        <br>
+        <br>
+        <br>
         <form action="{% url 'count' %}">
             <textarea name="fulltext" id="" cols="40" rows="10"></textarea>
             <br>
