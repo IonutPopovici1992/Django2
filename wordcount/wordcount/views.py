@@ -28,4 +28,4 @@ def count(request):
     return render(request, 'count.html', {'fulltext': fulltext, 'count': len(wordlist), 'sortedwords': sortedwords})
 
 def others(request):
-    return HttpResponse('Hello, this is the others page...')
+    return HttpResponse('Hello, this is the "Others" page content...')
